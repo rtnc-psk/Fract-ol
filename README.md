@@ -61,5 +61,22 @@ The Julia set requires you to provide two floating-point constants (between -2.0
 | --- | --- |
 | **Arrow Keys** | Move (shift) the camera position |
 | **Mouse Wheel** | Zoom In / Zoom Out |
-| **Spacebar** | Dynamically shift the color scheme |
 | **Esc Key** | Cleanly exit and close the program |
+
+## Resources
+
+### 📚 Classic References
+
+* [MLX42 Documentation](https://github.com/codam-coding-college/MLX42) - The official GitHub repository for the graphics library used.
+* [Mandelbrot Set (Wikipedia)](https://en.wikipedia.org/wiki/Mandelbrot_set) - A detailed explanation of the mathematics.
+* [Julia Set (Wikipedia)](https://en.wikipedia.org/wiki/Julia_set) - The mathematical relationship to Mandelbrot.
+
+### 🤖 AI Usage Description
+
+Artificial Intelligence (Gemini, acting as a 42 mentor persona) was utilized as a tool for high-level conceptual understanding and specific optimization advice.
+
+The AI assistance was used for the following specific tasks:
+1.  **Conceptual Explanations:** Deep dives into the complex number algebra and the "Escape Time" algorithm.
+2.  **Architecture:** Guidance on function splitting and variable management to meet the strict 42 Norm compliance.
+3.  **MLX42 Setup:** Troubleshooting and setting up the modern alternative graphical library environment.
+4.  **Documentation:** Drafting the structure of this README.md file to ensure it meets the standard project requirements.
