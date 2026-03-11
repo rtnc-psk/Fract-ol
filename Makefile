@@ -12,7 +12,12 @@ MLX_FLAGS   = -ldl -lglfw -pthread -lm
 
 all: $(NAME)
 
-$(NAME): $(OBJS)
+$(MLX_LIB):
+	@echo "Building MLX42 library..."
+	@cd $(MLX_DIR) && cmake -B build
+	@cd $(MLX_DIR) && cmake --build build -j4
+
+$(NAME): $(MLX_LIB) $(OBJS)
 	$(CC) $(CFLAGS) $(OBJS) $(MLX_LIB) $(MLX_FLAGS) -o $(NAME)
 
 %.o: %.c
@@ -20,6 +25,8 @@ $(NAME): $(OBJS)
 
 clean:
 	rm -f $(OBJS)
+	@echo "Cleaning MLX42 build files..."
+	@rm -rf $(MLX_DIR)/build
 
 fclean: clean
 	rm -f $(NAME)
