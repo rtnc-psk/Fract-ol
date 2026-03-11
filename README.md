@@ -30,3 +30,28 @@ make
 ```
 
 This will create an executable named `fractol`.
+
+### 🚀 Execution
+
+To start the program, run the executable and specify which fractal set you wish to explore.
+
+#### 1. Mandelbrot Set
+
+```bash
+./fractol mandelbrot
+```
+
+#### 2. Julia Set
+
+The Julia set requires you to provide two floating-point constants (between -2.0 and 2.0) to determine its shape:
+
+```bash
+# Example 1: The "Rabbit" Julia
+./fractol julia -0.123 0.745
+
+# Example 2: The "Dendrite" Julia
+./fractol julia 0.285 0.01
+
+# Example 3: The "Galactic" Julia
+./fractol julia -0.4 0.6
+```
