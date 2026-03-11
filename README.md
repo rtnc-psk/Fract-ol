@@ -19,3 +19,6 @@ Run this command in your Linux terminal to install the necessary dependencies:
 ```bash
 sudo apt update
 sudo apt install cmake libglfw3-dev xorg libxext-dev libbsd-dev
+```
+
+### 🛠️ Compilation
