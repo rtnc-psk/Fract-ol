@@ -55,7 +55,7 @@ double	ft_atof(const char *str)
 
 int	ft_strncmp(const char *s1, const char *s2, size_t n)
 {
-	size_t i;
+	size_t	i;
 
 	i = 0;
 	while ((s1[i] || s2[i]) && i < n)
@@ -70,7 +70,7 @@ int	ft_strncmp(const char *s1, const char *s2, size_t n)
 void	ft_putstr(char	*str)
 {
 	int	i;
-	
+
 	i = 0;
 	while (str[i])
 	{
