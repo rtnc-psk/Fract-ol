@@ -55,3 +55,11 @@ The Julia set requires you to provide two floating-point constants (between -2.0
 # Example 3: The "Galactic" Julia
 ./fractol julia -0.4 0.6
 ```
+### 🕹️ Controls
+
+| Input | Action |
+| --- | --- |
+| **Arrow Keys** | Move (shift) the camera position |
+| **Mouse Wheel** | Zoom In / Zoom Out |
+| **Spacebar** | Dynamically shift the color scheme |
+| **Esc Key** | Cleanly exit and close the program |
