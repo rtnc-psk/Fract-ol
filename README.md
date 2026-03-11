@@ -22,3 +22,11 @@ sudo apt install cmake libglfw3-dev xorg libxext-dev libbsd-dev
 ```
 
 ### 🛠️ Compilation
+
+To compile the project, clone this repository, navigate to the root folder, and use the included `Makefile`:
+
+```bash
+make
+```
+
+This will create an executable named `fractol`.
